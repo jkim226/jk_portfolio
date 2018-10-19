@@ -1,0 +1,13 @@
+/* YOUR CODE HERE */
+.card-img-top {
+    width: 20px;
+}
+
+.jumbotron {
+    position: relative;
+    background: #000 url("https://thought-leadership-production.s3.amazonaws.com/2016/10/28/14/29/18/d9cc4e0b-ba5c-44b6-9b4d-5feffab18b26/tnc_56094809_preview_cropped.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: #fff;
+}

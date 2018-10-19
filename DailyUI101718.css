@@ -1,0 +1,475 @@
+/* Media Queries */
+.container {
+    background: url('https://files.slack.com/files-pri/T9HEASLMU-FDG5A67FT/download/img1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 1000px;
+}
+
+@media (min-width: 500px) {
+    .container {
+        background: url('https://files.slack.com/files-pri/T9HEASLMU-FDGJ38BD2/download/img2.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 1000px;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        background: url('https://files.slack.com/files-pri/T9HEASLMU-FDGP627M0/download/img3.jpg') no-repeat center center fixed;
+        background-size: cover;
+        height: 1000px;
+    }
+}
+
+/* NavBar Logo */
+.navBarLogo {
+    width: 30px;
+}
+
+.social_media_icon {
+    width: 20px;
+}
+
+
+/*Header Text Adjustments*/
+h1 {
+    font-size: 40px;
+    font-family: "North";
+    color: #003847;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 2.25em;
+    font-family: "Josefin Sans";
+    font-weight: Bold;
+    color: #003847;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-family: "Josefin Sans";
+    font-weight: Bold;
+    color: #003847;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-family: "Josefin Sans";
+    font-weight: Bold;
+    color: #003847;
+}
+
+h5 {
+    font-size: 1.5em;
+    font-family: "Lora";
+    color: #003847;
+
+}
+
+h6 {
+    font-size: 0.813em;
+    font-family: "Josefin Sans";
+    color: #7a7a7a;
+    text-transform: uppercase
+}
+
+body {
+    font-family: "Lora";
+}
+
+
+/*Body Text Adjustments*/
+.body1 {
+    font-family: "Lora Regular";
+    font-size: 18px;
+}
+
+.body2 {
+    font-family: "Lora";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pullquote {
+    font-family: "Lora";
+    font-style: italic;
+    font-size: 18px;
+}
+
+
+
+/* COLORS */
+.color-item1 {
+    padding: 0px 30px;
+    border-radius: 12px;
+    background-color: #003847;
+    color: white;
+    font-family: "Josefin Sans";
+}
+
+.color-item2 {
+    padding: 0px 30px;
+    border-radius: 12px;
+    background-color: #004B4F;
+    color: white;
+    font-family: "Josefin Sans";
+}
+
+.color-item3 {
+    padding: 0px 30px;
+    border-radius: 12px;
+    background-color: #DCD1C0;
+    color: white;
+    font-family: "Josefin Sans";
+}
+
+.color-item4 {
+    padding: 0px 30px;
+    border-radius: 12px;
+    background-color: #C4BFB1;
+    color: white;
+    font-family: "Josefin Sans";
+}
+
+.color-item5 {
+    padding: 0px 30px;
+    border-radius: 12px;
+    background-color: #DB9A18;
+    color: white;
+    font-family: "Josefin Sans";
+}
+
+
+/*Link CSS*/
+a:link {
+    font-family: "Josefin Sans";
+    color: #003847;
+    line-height: 2;
+}
+
+a:hover {
+    font-family: "Josefin Sans";
+    color: rgb(219, 199, 12);
+    line-height: 2;
+}
+
+
+
+/* Buttons */
+.buttonsection {
+    background-color: #3d4446;
+}
+
+.button {
+    font-family: "North";
+    font-size: 14px;
+}
+
+.button-normal {
+    background-color: transparent;
+    padding: 5px 30px;
+    border-radius: 12px;
+    border: 3px solid white;
+    color: white;
+}
+
+.button-hover {
+    background-color: transparent;
+    padding: 5px 30px;
+    border-radius: 12px;
+    border: 3px solid white;
+    color: white;
+}
+
+.button-hover:hover {
+    background-color: rgb(219, 199, 12);
+    color: white;
+}
+
+.button-pressed {
+    background-color: #003847;
+    padding: 5px 30px;
+    border-radius: 12px;
+    border: 3px solid white;
+    color: white;
+}
+
+.button-disable {
+    background-color: transparent;
+    padding: 5px 30px;
+    border-radius: 12px;
+    border: 3px solid white;
+    color: white;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+
+/* Iconography */
+.Iconography {}
+
+/* IMAGERY */
+.Imagery {
+    width: 80%;
+}
+
+
+/* img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+} */
+
+/* SIDEBAR*/
+/* .sidebar-container {
+    background-color: #7a7a7a;
+    height: 75%;
+    position: fixed;
+    padding: 20px;
+    width: 180px;
+
+}
+
+.sidebar-logo {
+    width: 100px;
+}
+*/
+.bodylogo {
+    Width: 100px;
+}
+
+
+
+/*Flexbox Exercise*/
+.section-container {
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 100%;
+
+}
+
+/* Sets max width for content and align content in middle of section-container */
+.content-container {
+    background: white;
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+/* Sets row behavior using flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.row-container-no-wrap {
+    width: 100%;
+    display: flex;
+    /* === sets spacing between elements in container === */
+    justify-content: space-between;
+    flex-wrap: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.row-container {
+    width: 100%;
+    display: flex;
+    /* === sets spacing between elements in container === */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.row-container-around {
+    width: 100%;
+    display: flex;
+    /* === sets spacing between elements in container === */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+
+
+@media only screen and (max-width: 760px) {
+
+    /* Position nav at the top 
+    nav {
+        position: fixed;
+        left: 0;
+    }
+
+    /* Shows Mobile Navigation Styles 
+    .mobile-nav {
+        background: white;
+        width: 100%;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        height: 80px;
+        margin: 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Sets max width for logos in mobile nav 
+    .mobile-nav img {
+        height: 80px;
+    }
+*/
+
+    /* Hides Sidebar on mobile */
+    .sidebar-container {
+        display: block;
+        float: left;
+    }
+
+    /* Defines mobile container content */
+    .section-container {
+        background: white;
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 100%;
+        float: right;
+    }
+
+
+    .row-container-no-wrap {
+        flex-wrap: wrap;
+    }
+
+    #Logo .section-logo {
+        width: 300px;
+        height: 100%;
+    }
+
+}
+
+/* Arturo's Input
+/* Sets media query for screens below 450px wide 
+@media only screen and (max-width: 375px) {
+
+    /* Position nav at the top 
+    nav {
+        position: fixed;
+        left: 0;
+    }
+
+
+    /* Sets max width for logos in mobile nav 
+    .mobile-nav img {
+        height: 80px;
+    }
+
+    /* Hides Sidebar on mobile 
+    .sidebar-container {
+        float: left;
+        display: block;
+    }
+
+    /* Defines mobile container content *
+    .section-container {
+        float: right;
+        background: white;
+        margin-top: 60px;
+        margin-left: 0px;
+        height: 100%;
+    }
+
+
+    .row-container-no-wrap {
+        flex-wrap: wrap;
+    }
+
+    #Logo .section-logo {
+        width: 300px;
+        height: 100%;
+    }
+
+
+
+    /*Button Attributes
+    .btn {
+        width: 30px;
+        height: 50px;
+    }
+
+}
+
+
+
+
+
+/*MOBILE NAV LOGO
+.mobile-nav-logo {
+    width: 60px;
+}
+*/
+
+.responsive {
+    width: 20px;
+    max-width: 50px;
+    height: auto;
+}
+
+/*Sets media query for screens below 450px wide */
+@media only screen and (max-width: 450px) {
+
+    /* Position nav at the top */
+    nav {
+        position: fixed;
+        left: 0;
+    }
+
+    /* Shows Mobile Navigation Styles  */
+    .mobile-nav {
+        background: gray;
+        font-size: 12px;
+        width: 100%;
+        padding: 10px 10px;
+        display: flex;
+        flex-wrap: flex;
+        justify-content: flex-start;
+        align-content: center;
+        height: 90px;
+        margin: 10;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Hides Sidebar on mobile */
+    .sidebar-container {
+        display: none;
+    }
+
+    /* Defines mobile container content */
+    .section-container {
+        background: #FAF8F0;
+        margin-top: 60px;
+        margin-left: 0px;
+        height: 100%;
+    }
+
+    /* Sets Type Styles */
+    .mobile-nav h2 {
+        font-size: 1.6em;
+    }
+
+
+    .color-wrap {
+        width: 100%;
+        display: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+    }
+
+}

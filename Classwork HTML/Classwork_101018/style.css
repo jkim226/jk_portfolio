@@ -1,0 +1,13 @@
+.progress {
+    border-radius: 50px;
+    height: 50px;
+    border-style: solid;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.progress-bar {
+    height: 50px;
+    background-color: purple;
+}

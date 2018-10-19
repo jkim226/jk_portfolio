@@ -1,0 +1,28 @@
+/* POINT OUT THAT WE HAVE img1 SET AS OUR BACKGROUND IMAGE */
+
+.container {
+  background: url(../img1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 1000px;
+}
+
+/* THEN WHEN THE CONTAINER IS MORE THAN 500px THE IMAGE CHANGES TO img2 */
+
+@media (min-width: 500px) {
+  .container {
+    background: url(../img2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 1000px;
+  }
+}
+
+/* THEN WHEN THE CONTAINER IS MORE THAN 900px THE IMAGE CHANGES TO img3 */
+
+@media (min-width: 900px) {
+  .container {
+    background: url(../img3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 1000px;
+  }
+}
+
